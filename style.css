@@ -322,7 +322,7 @@ img {
 
 .service-icon {
     margin: 60px 0 20px;
-    color: #1261b5;
+    color: #666;
     font-size: 30px;
 }
 
@@ -695,4 +695,11 @@ img {
     .hero {
         padding-top: 100px;
     }
+}
+.header.scrolled {
+    top: 10px;
+}
+
+.header.scrolled .nav-container {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
