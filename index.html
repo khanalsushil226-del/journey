@@ -3,401 +3,380 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Yatra Technologies - Building innovative digital solutions for a smarter future.">
-    <title>Yatra Technologies | Technology for Tomorrow</title>
+    <meta name="description" content="Yatra Technologies - Building intelligent technology for a connected future.">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Yatra Technologies</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <div class="container">
-            <nav>
-                <a href="#home" class="logo">
-                    <img src="logo bg.png" alt="Yatra Technologies">
-                </a>
+    <header class="header">
+        <div class="container nav-container">
 
-                <button class="menu-btn" id="menuBtn">☰</button>
+            <a href="#home" class="logo">
+                <img src="logo.png" alt="Yatra Technologies">
+            </a>
 
-                <ul class="nav-links" id="navLinks">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#solutions">Solutions</a></li>
-
-                    <li><a href="#process">Process</a></li>
-                     <li><a href="#team">Team</a></li>
-                    <li><a href="#contact" class="nav-button">Let's Talk</a></li>
-                </ul>
+            <nav class="nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#technology">Technology</a>
+                <a href="#team">Team</a>
+                <a href="#contact">Contact</a>
             </nav>
+
+            <a href="#contact" class="nav-button">Let's Talk</a>
+
+            <button class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+            </button>
+
         </div>
     </header>
 
     <main>
 
         <section class="hero" id="home">
-            <div class="container">
-                <div class="hero-content reveal">
-                    <div class="badge">
+            <div class="container hero-container">
+
+                <div class="hero-content">
+                    <div class="hero-tag">
                         <span></span>
-                        Technology. Innovation. Growth.
+                        Technology for tomorrow
                     </div>
 
                     <h1>
-                        Building the <strong>digital future</strong> with technology.
+                        Building the
+                        <span>future</span>
+                        with technology.
                     </h1>
 
                     <p>
-                        Yatra Technologies creates modern digital solutions that help businesses
-                        simplify complexity, improve efficiency and turn ideas into meaningful
-                        technology products.
+                        We create intelligent digital solutions that transform ideas
+                        into meaningful experiences, powerful products, and lasting impact.
                     </p>
 
-                    <div class="hero-buttons">
-                        <a href="#contact" class="btn btn-primary">Start a Project →</a>
-                        <a href="#services" class="btn btn-outline">Explore Services</a>
+                    <div class="hero-actions">
+                        <a href="#services" class="primary-button">
+                            Explore our work
+                            <span>↗</span>
+                        </a>
+
+                        <a href="#about" class="secondary-button">
+                            Discover Yatra
+                        </a>
                     </div>
+                </div>
 
-                    <div class="hero-stats">
-                        <div class="stat">
-                            <strong>01</strong>
-                            <span>Innovation First</span>
-                        </div>
+                <div class="hero-visual">
+                    <div class="hero-orbit orbit-one"></div>
+                    <div class="hero-orbit orbit-two"></div>
+                    <div class="hero-orbit orbit-three"></div>
 
-                        <div class="stat">
-                            <strong>02</strong>
-                            <span>Digital Solutions</span>
-                        </div>
-
-                        <div class="stat">
-                            <strong>03</strong>
-                            <span>Built to Scale</span>
-                        </div>
+                    <div class="hero-core">
+                        <img src="logo.png" alt="Yatra Technologies logo">
                     </div>
+                </div>
+
+            </div>
+
+            <div class="hero-bottom">
+                <div class="container hero-bottom-container">
+                    <span>Scroll to explore</span>
+                    <div class="scroll-line"></div>
                 </div>
             </div>
         </section>
 
-        <section class="services" id="services">
+        <section class="about section" id="about">
             <div class="container">
-                <div class="section-header reveal">
-                    <div class="section-label">What we do</div>
-                    <h2>Technology that moves your business forward.</h2>
-                    <p>
-                        From strategy to development, we create digital experiences and
-                        technology solutions designed around real business needs.
-                    </p>
+
+                <div class="section-heading">
+                    <span class="section-number">01</span>
+                    <span class="section-label">About us</span>
                 </div>
 
-                <div class="service-grid">
-
-                    <div class="service-card reveal">
-                        <div class="service-icon">⌘</div>
-                        <h3>Web Development</h3>
-                        <p>
-                            Fast, responsive and scalable websites and web applications
-                            designed for modern businesses.
-                        </p>
-                    </div>
-
-                    <div class="service-card reveal">
-                        <div class="service-icon">◈</div>
-                        <h3>Software Solutions</h3>
-                        <p>
-                            Custom software products built to solve complex business
-                            challenges and improve operations.
-                        </p>
-                    </div>
-
-                    <div class="service-card reveal">
-                        <div class="service-icon">✦</div>
-                        <h3>UI & UX Design</h3>
-                        <p>
-                            Clean, intuitive and user-focused interfaces that make
-                            technology simple and enjoyable.
-                        </p>
-                    </div>
-
-                    <div class="service-card reveal">
-                        <div class="service-icon">↗</div>
-                        <h3>Digital Transformation</h3>
-                        <p>
-                            Helping businesses modernize their processes through
-                            thoughtful technology and automation.
-                        </p>
-                    </div>
-
-                    <div class="service-card reveal">
-                        <div class="service-icon">◎</div>
-                        <h3>Cloud Solutions</h3>
-                        <p>
-                            Flexible and scalable cloud-based solutions designed for
-                            reliability, performance and growth.
-                        </p>
-                    </div>
-
-                    <div class="service-card reveal">
-                        <div class="service-icon">∞</div>
-                        <h3>Technology Consulting</h3>
-                        <p>
-                            Practical technology guidance to help turn business ideas
-                            into clear and achievable digital strategies.
-                        </p>
-                    </div>
-                    <div class="service-card reveal">
-                        <div class="service-icon">◎</div>
-                        <h3>All Tech Solutions</h3>
-                        <p>
-                            Every tech problem has a solution. We provide all tech solutions to our clients.
-                        </p>
-                    </div>
-                    <div class="service-card reveal">
-                        <div class="service-icon">‣</div>
-                        <h3>Digital Marketing</h3>
-                        <p>
-                            Data-driven strategies to enhance online visibility and engagement.
-                        </p>
-                    </div>
-                    <div class="service-card reveal">
-                        <div class="service-icon">↗</div>
-                        <h3>SEO Optimization</h3>
-                        <p>
-                            Strategic search engine optimization techniques to improve website rankings and drive organic traffic.
-                        </p>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <section id="about">
-            <div class="container">
                 <div class="about-grid">
 
-                    <div class="about-visual reveal">
-                        <div class="about-circle"></div>
-
-                        <div class="about-center">
-                            <img src="logo bg.png" alt="Yatra Technologies">
-                        </div>
-
-                        <div class="floating-card floating-one">Digital Innovation</div>
-                        <div class="floating-card floating-two">Future Ready</div>
+                    <div class="about-title">
+                        <h2>
+                            Technology that
+                            <span>moves ideas forward.</span>
+                        </h2>
                     </div>
 
-                    <div class="about-content reveal">
-                        <div class="section-label">About Yatra Technologies</div>
-
-                        <h2>Where ideas become technology.</h2>
-
-                        <p>
-                            We believe great technology should make things simpler, smarter
-                            and more connected. Yatra Technologies is focused on creating
-                            digital products and solutions that are practical, elegant and
-                            built for the future.
+                    <div class="about-content">
+                        <p class="large-text">
+                            Yatra Technologies is a technology company focused on
+                            creating thoughtful, scalable, and future-ready digital solutions.
                         </p>
 
-                        <ul class="check-list">
-                            <li>
-                                <span class="check">✓</span>
-                                Business-focused technology solutions
-                            </li>
-                            <li>
-                                <span class="check">✓</span>
-                                Modern and scalable digital architecture
-                            </li>
-                            <li>
-                                <span class="check">✓</span>
-                                User-centered product experiences
-                            </li>
-                            <li>
-                                <span class="check">✓</span>
-                                Long-term technology partnerships
-                            </li>
-                        </ul>
+                        <p>
+                            We combine technology, creativity, and strategy to help
+                            businesses solve complex problems and create better digital
+                            experiences.
+                        </p>
+
+                        <a href="#contact" class="text-link">
+                            Learn more about us
+                            <span>↗</span>
+                        </a>
                     </div>
 
                 </div>
+
             </div>
         </section>
 
-        <section class="solutions" id="solutions">
+        <section class="services section" id="services">
             <div class="container">
 
-                <div class="section-header reveal">
-                    <div class="section-label">Our approach</div>
-                    <h2>Technology built around your goals.</h2>
+                <div class="section-heading">
+                    <span class="section-number">02</span>
+                    <span class="section-label">What we do</span>
+                </div>
+
+                <div class="services-header">
+                    <h2>Our capabilities.</h2>
                     <p>
-                        We combine technology, design and business thinking to build
-                        solutions that create lasting value.
+                        From strategy to execution, we build technology that delivers
+                        real-world value.
                     </p>
                 </div>
 
-                <div class="solution-grid">
+                <div class="services-grid">
 
-                    <div class="solution-card reveal">
+                    <article class="service-card">
+                        <span class="service-number">01</span>
+                        <div class="service-icon">✦</div>
+                        <h3>Digital Solutions</h3>
+                        <p>
+                            Modern digital products and experiences designed around
+                            real business needs.
+                        </p>
+                        <a href="#contact">Explore <span>↗</span></a>
+                    </article>
+
+                    <article class="service-card">
+                        <span class="service-number">02</span>
+                        <div class="service-icon">⌘</div>
+                        <h3>Software Development</h3>
+                        <p>
+                            Reliable, scalable software built with modern technologies
+                            and engineering practices.
+                        </p>
+                        <a href="#contact">Explore <span>↗</span></a>
+                    </article>
+
+                    <article class="service-card">
+                        <span class="service-number">03</span>
+                        <div class="service-icon">◎</div>
+                        <h3>AI & Automation</h3>
+                        <p>
+                            Intelligent systems that automate workflows and unlock
+                            new possibilities.
+                        </p>
+                        <a href="#contact">Explore <span>↗</span></a>
+                    </article>
+
+                    <article class="service-card">
+                        <span class="service-number">04</span>
+                        <div class="service-icon">◇</div>
+                        <h3>Cloud & Infrastructure</h3>
+                        <p>
+                            Secure and flexible infrastructure designed for performance,
+                            reliability, and growth.
+                        </p>
+                        <a href="#contact">Explore <span>↗</span></a>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="technology section" id="technology">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-number">03</span>
+                    <span class="section-label">Technology</span>
+                </div>
+
+                <div class="technology-content">
+                    <div>
+                        <h2>
+                            Built with
+                            <span>what's next.</span>
+                        </h2>
+                    </div>
+
+                    <div>
+                        <p>
+                            We work with modern technologies and continuously explore
+                            emerging tools to create solutions that stay ahead of the curve.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="tech-list">
+                    <div class="tech-item">
                         <span>01</span>
-                        <h3>Think</h3>
-                        <p>Understand the challenge, opportunity and business objective.</p>
+                        <strong>Artificial Intelligence</strong>
+                        <span>↗</span>
                     </div>
 
-                    <div class="solution-card reveal">
+                    <div class="tech-item">
                         <span>02</span>
-                        <h3>Design</h3>
-                        <p>Create a clear digital experience around real user needs.</p>
+                        <strong>Cloud Computing</strong>
+                        <span>↗</span>
                     </div>
 
-                    <div class="solution-card reveal">
+                    <div class="tech-item">
                         <span>03</span>
-                        <h3>Build</h3>
-                        <p>Develop reliable technology using modern development practices.</p>
+                        <strong>Web Technologies</strong>
+                        <span>↗</span>
                     </div>
 
-                    <div class="solution-card reveal">
+                    <div class="tech-item">
                         <span>04</span>
-                        <h3>Grow</h3>
-                        <p>Continuously improve, optimize and scale the solution.</p>
+                        <strong>Data & Analytics</strong>
+                        <span>↗</span>
                     </div>
-
                 </div>
+
             </div>
         </section>
 
-        <section id="process">
+        <section class="team section" id="team">
             <div class="container">
 
-                <div class="section-header reveal">
-                    <div class="section-label">How we work</div>
-                    <h2>A simple process. Powerful results.</h2>
-                    <p>
-                        Our process keeps projects focused, transparent and aligned with
-                        the outcomes that matter.
-                    </p>
+                <div class="section-heading">
+                    <span class="section-number">04</span>
+                    <span class="section-label">Our team</span>
                 </div>
 
-                <div class="process-grid">
-
-                    <div class="process-card reveal">
-                        <div class="process-number">01</div>
-                        <h3>Discover</h3>
-                        <p>We understand your business, users and technology requirements.</p>
-                    </div>
-
-                    <div class="process-card reveal">
-                        <div class="process-number">02</div>
-                        <h3>Plan</h3>
-                        <p>We define the right strategy, architecture and development roadmap.</p>
-                    </div>
-
-                    <div class="process-card reveal">
-                        <div class="process-number">03</div>
-                        <h3>Develop</h3>
-                        <p>We turn the strategy into a high-quality working digital product.</p>
-                    </div>
-
-                    <div class="process-card reveal">
-                        <div class="process-number">04</div>
-                        <h3>Launch</h3>
-                        <p>We deliver, optimize and help your technology evolve over time.</p>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <section class="team" id="team">
-            <div class="container">
-
-                <div class="section-header reveal">
-                    <div class="section-label">Meet the team</div>
-                    <h2>People who make it happen.</h2>
+                <div class="team-header">
+                    <h2>People behind<br><span>the technology.</span></h2>
                     <p>
-                        Our team is made up of experienced designers, developers and
-                        strategists who are passionate about technology and innovation.
+                        A team of curious minds, engineers, designers, and strategists
+                        working together to build what's next.
                     </p>
                 </div>
 
                 <div class="team-grid">
 
-                    <div class="team-member reveal">
-                        <img src="sajan rai.jpeg" alt="Team Member 1">
-                        <h3>Sajan Rai</h3>
-                        <p>Co-Founder, CTO</p>
-                    </div>
+                    <article class="team-card">
+                        <div class="team-image">
+                            <img src="team-1.jpg" alt="Team member">
+                        </div>
+                        <div class="team-info">
+                            <h3>Team Member</h3>
+                            <p>Founder & CEO</p>
+                        </div>
+                    </article>
 
-                    <div class="team-member reveal">
-                        <img src="afnu photo.jpeg" alt="Team Member 2">
-                        <h3>Sushil Khanal</h3>
-                        <p>Co-Founder, CEO</p>
-                    </div>
+                    <article class="team-card">
+                        <div class="team-image">
+                            <img src="team-2.jpg" alt="Team member">
+                        </div>
+                        <div class="team-info">
+                            <h3>Team Member</h3>
+                            <p>Technology Lead</p>
+                        </div>
+                    </article>
 
-                    
+                    <article class="team-card">
+                        <div class="team-image">
+                            <img src="team-3.jpg" alt="Team member">
+                        </div>
+                        <div class="team-info">
+                            <h3>Team Member</h3>
+                            <p>Creative Lead</p>
+                        </div>
+                    </article>
 
                 </div>
+
             </div>
+        </section>
 
-        <section class="cta" id="contact">
+        <section class="contact section" id="contact">
             <div class="container">
-                <div class="cta-box reveal">
-                    <h2>Have an idea? Let's build something meaningful.</h2>
-                    <p>
-                        Tell us about your project, challenge or idea and let's explore
-                        what technology can do for you.
-                    </p>
-                    <a href="mailto:hello@yatratechnologies.com" class="btn">Get in Touch →</a>
+
+                <div class="contact-box">
+
+                    <div class="contact-content">
+                        <span class="section-label">Have a project in mind?</span>
+
+                        <h2>
+                            Let's build something
+                            <span>remarkable.</span>
+                        </h2>
+
+                        <p>
+                            Tell us about your idea, challenge, or ambition.
+                            We'd love to explore what we can create together.
+                        </p>
+
+                        <a href="mailto:hello@yatratechnologies.com" class="primary-button">
+                            Start a conversation
+                            <span>↗</span>
+                        </a>
+                    </div>
+
+                    <div class="contact-mark">
+                        <img src="logo.png" alt="Yatra Technologies">
+                    </div>
+
                 </div>
+
             </div>
         </section>
 
     </main>
 
-    <footer>
+    <footer class="footer">
         <div class="container">
 
-            <div class="footer-grid">
+            <div class="footer-top">
 
-                <div class="footer-brand">
-                    <img src="logoo.jpeg" alt="Yatra Technologies">
-                    <p>
-                        Building modern digital solutions for businesses ready
-                        to move forward with technology.
-                    </p>
-                </div>
+                <a href="#home" class="footer-logo">
+                    <img src="logo.png" alt="Yatra Technologies">
+                </a>
 
-                <div class="footer-column">
-                    <h4>Company</h4>
-                    <a href="#about">About Us</a>
+                <div class="footer-links">
+                    <a href="#about">About</a>
                     <a href="#services">Services</a>
-                    <a href="#solutions">Solutions</a>
-                    <a href="#process">Process</a>
-                </div>
-
-                <div class="footer-column">
-                    <h4>Services</h4>
-                    <a href="#services">Web Development</a>
-                    <a href="#services">Software Solutions</a>
-                    <a href="#services">UI & UX Design</a>
-                    <a href="#services">Cloud Solutions</a>
-                </div>
-
-                <div class="footer-column">
-                    <h4>Connect</h4>
-                    <a href="mailto:hello@yatratechnologies.com">Email Us</a>
-                    <a href="#contact">Start a Project</a>
+                    <a href="#technology">Technology</a>
+                    <a href="#team">Team</a>
+                    <a href="#contact">Contact</a>
                 </div>
 
             </div>
 
             <div class="footer-bottom">
                 <span>© 2026 Yatra Technologies. All rights reserved.</span>
-                <span>Your Journey, Our Technology</span>
+
+                <div>
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                </div>
             </div>
 
         </div>
     </footer>
 
     <script src="script.js"></script>
+
 </body>
 </html>
