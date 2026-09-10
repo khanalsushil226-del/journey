@@ -589,51 +589,63 @@ img {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
 
-    .container {
-        width: 92%;
+    .header {
+        top: 10px;
     }
 
     .nav-container {
-        height: 60px;
+        height: 58px;
+        padding: 0 8px 0 15px;
+        border-radius: 15px;
     }
 
     .logo {
         width: 140px;
     }
 
-    .hero h1 {
-        font-size: 42px;
+    .nav {
+        display: none;
     }
 
-    .hero-actions {
-        flex-direction: column;
+    .nav-button {
+        display: none;
     }
 
-    .primary-button,
-    .secondary-button {
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav.active {
+        position: absolute;
+        top: 68px;
+        left: 0;
         width: 100%;
-        text-align: center;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        background: white;
+        border: 1px solid #e8edf2;
+        border-radius: 15px;
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
     }
 
-    .about-title h2,
-    .technology-content h2,
-    .team-header h2,
-    .contact-content h2,
-    .services-header h2 {
-        font-size: 40px;
+    .nav.active a {
+        padding: 14px 5px;
+        border-bottom: 1px solid #eee;
     }
 
-    .services-grid {
-        grid-template-columns: 1fr;
+    .nav.active a:last-child {
+        border-bottom: none;
     }
 
-    .tech-item strong {
-        font-size: 19px;
+    .nav.active a::after {
+        display: none;
     }
 
-    .team-image {
-        height: 350px;
+    .hero {
+        padding-top: 100px;
     }
 }
